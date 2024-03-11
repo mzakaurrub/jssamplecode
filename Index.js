@@ -1,9 +1,7 @@
-let i=document.getElementById("count-el");
-let result=0;
+let elem = document.getElementById("count-el");
+let counter = 0;
 
-function increment(){
-let t=result++;    
-    i.innerText=t;
-    
-    
+function increment() {
+    let value = ++counter;
+    elem.innerText = value;
 }
