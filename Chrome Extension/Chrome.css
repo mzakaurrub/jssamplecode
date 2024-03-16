@@ -1,53 +1,51 @@
-html, body{
+html, body {
     margin: 0;
-    padding: 10;
+    padding: 10px; /* Add units to padding */
     font-family: Arial, Helvetica, sans-serif;
     min-width: 400px;
 }
 
-input{
-    width:100%;
-    padding-left: 10 px;
-    padding-right: 10 px;
-    padding-bottom: 10 px;
-    padding-top: 10 px;
+input {
+    width: 100%;
+    padding: 10px; /* Add units to padding */
     box-sizing: border-box;
-    border: 1 px solid #5f9341
-    margin-bottom 4 px;
+    border: 1px solid #5f9341; /* Add missing semicolon */
+    margin-bottom: 4px; /* Add colon after property name */
 }
 
-button{
+button {
     background-color: #5f9341;
-    color:white;
+    color: white;
     padding: 10px 20px;
     border: 1px solid #5f9341;
     font-weight: bold;
 }
 
-#delete-btn{
-background-color: white;
-color:#5f9341;
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
 }
-#box{
-    curson: pointer;
+
+#box {
     background: lightseagreen;
-    padding: 40 px;
-    width-200 px;
+    padding: 40px; /* Remove space before px */
+    width: 200px; /* Correct the colon to set width */
     text-align: center;
-    margin: 20 px, auto;
+    margin: 20px auto; /* Remove comma and space after values */
     color: white;
     font-weight: bold;
 }
 
-ul{
-margin: top 20%;
-list-style: none;
-padding-left: 0;
-}
-li{
-margin-top:5px;
+ul {
+    margin-top: 20%; /* Add colon after property name */
+    list-style: none;
+    padding-left: 0;
 }
 
-a{
-color:#5f9341;
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #5f9341;
 }
